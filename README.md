@@ -90,7 +90,7 @@ shiny-server: 1.3.0.403
         Host aws-shiny
             HostName public_dns_name
             User ubuntu
-            IdentityFile ~/.ssh/aws-shiny.pem
+            IdentityFile ~/.ssh/shinybootstrap.pem
             ForwardX11 yes
             ForwardX11Trusted yes
         ```
