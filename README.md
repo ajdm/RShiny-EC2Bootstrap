@@ -122,7 +122,7 @@ shiny-server: 1.3.0.403
 -   First, create a superuser root password by entering a password in the EC2 command line.
     
     ```bash
-    sudo password root
+    sudo passwd root
     su
     ```
     
@@ -134,7 +134,7 @@ shiny-server: 1.3.0.403
     sudo apt-get install libcurl4-openssl-dev
     ```
     
--   R is now successfuly installed!
+-   R is now successfully installed!
 
 <sub>([back to contents](#contents))</sub>
 
